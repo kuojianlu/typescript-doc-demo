@@ -1,2 +1,9 @@
+# Syntax highlighter
+highlighter: rouge
+
 include:
   - "*.html" # Needed to include files that start with underscore
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
